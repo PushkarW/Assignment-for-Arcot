@@ -1,4 +1,3 @@
-// UsageStatisticsChart.js
 import React, { useEffect, useState } from "react";
 import {
   BarChart,
@@ -28,7 +27,7 @@ const UsageStatisticsChart = () => {
   }, []);
 
   if (!usageStatisticsData) {
-    return <div>Loading...</div>; // Add loading state while fetching data
+    return <div>Loading...</div>;
   }
 
   const { by_platform, by_country } = usageStatisticsData;

@@ -1,6 +1,5 @@
-// CategoryDistributionChart.js
 import React, { useEffect, useState } from "react";
-// import "./DesignForAll/CategoryDistributionChart.css";
+import "./DesignForAll/CategoryDistributionChart.css";
 
 import {
   BarChart,

@@ -1,4 +1,3 @@
-// UserSatisfactionChart.js
 import React, { useEffect, useState } from "react";
 import { PieChart, Pie, Tooltip, Cell, Legend } from "recharts";
 import { fetchMockData } from "./ApiService";
@@ -21,7 +20,7 @@ const UserSatisfactionChart = () => {
   }, []);
 
   if (!userSatisfactionData) {
-    return <div>Loading...</div>; // Add loading state while fetching data
+    return <div>Loading...</div>;
   }
 
   const ratingsData = userSatisfactionData.ratings.map(({ rating, count }) => ({
@@ -55,7 +54,7 @@ const UserSatisfactionChart = () => {
         cx="50%"
         cy="50%"
         outerRadius={80}
-        fill="#8884d8"
+        fill="red"
       >
         {ratingsData.map((entry, index) => (
           <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />

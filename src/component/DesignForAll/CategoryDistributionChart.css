@@ -1,13 +1,3 @@
-/* .barContainer {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-/* styles.css */
-
 .head {
   color: var(--color-primary);
 }
@@ -15,20 +5,20 @@
 .chart-container {
   width: 100%;
   height: auto;
-  max-width: 800px; /* Adjust the maximum width as needed */
-  margin: 0 auto; /* Center the chart horizontally */
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
   /* Adjust the chart size for smaller screens */
   .chart-container {
-    max-width: 600px; /* Adjust the maximum width for smaller screens */
+    max-width: 600px;
   }
 }
 
 @media (max-width: 576px) {
-  /* Further adjust the chart size for extra-small screens */
+  /* adjust the chart size for extra-small screens */
   .chart-container {
-    max-width: 400px; /* Adjust the maximum width for extra-small screens */
+    max-width: 400px;
   }
 }

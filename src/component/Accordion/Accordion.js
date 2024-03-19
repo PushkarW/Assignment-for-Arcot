@@ -6,7 +6,6 @@ import MuiAccordionSummary from "@mui/material/AccordionSummary";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 
-// import Piechart from "../PieChart";
 import CategoryDistributionChart from "../CategoryDistributionChart";
 import ResponseTimesChart from "../ResponseTimesChart";
 import UserSatisfactionChart from "../UserSatisfactionChart";

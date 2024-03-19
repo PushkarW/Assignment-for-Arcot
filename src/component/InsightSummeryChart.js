@@ -1,4 +1,3 @@
-// InsightsSummaryChart.js
 import React, { useEffect, useState } from "react";
 import { PieChart, Pie, Tooltip, Legend, Cell } from "recharts";
 import { fetchMockData } from "./ApiService";
@@ -19,10 +18,11 @@ const InsightsSummaryChart = () => {
     fetchData();
   }, []);
 
-  const COLORS = ["#0088FE", "#FF6347"]; // Colors for the pie chart slices
+  // Colors for the pie chart slices
 
+  const COLORS = ["#0088FE", "#FF6347"];
   if (!insightsData) {
-    return <div>Loading...</div>; // Add loading state while fetching data
+    return <div>Loading...</div>;
   }
 
   const chartData = [

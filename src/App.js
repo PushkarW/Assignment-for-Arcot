@@ -1,7 +1,5 @@
-// App.js
 import React from "react";
 
-// import Piechart from "./component/PieChart";
 import "./App.css";
 import Accordion from "./component/Accordion/Accordion";
 

@@ -1,4 +1,3 @@
-// ResponseTimesChart.js
 import React, { useEffect, useState } from "react";
 import {
   LineChart,
@@ -9,7 +8,6 @@ import {
   Tooltip,
   Legend,
 } from "recharts";
-// import { fetchResponseTimesData } from "../../services/apiService";
 import { fetchMockData } from "./ApiService";
 
 const ResponseTimesChart = () => {
