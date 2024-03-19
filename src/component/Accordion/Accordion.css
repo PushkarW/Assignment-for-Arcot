@@ -1,0 +1,24 @@
+.container {
+  border-radius: 10px 10px 0 0;
+  border: 3px solid var(--color-primary);
+}
+.mainContainer {
+  background-color: var(--color-bg);
+  border: 10px;
+}
+.main {
+  background-color: var(--color-primary);
+  border: 3px solid var(--color-primary);
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: var(--color-fg);
+}
+
+.details {
+  background-color: var(--color-grey);
+  border-radius: 0 0 10px 10px;
+}
+
+.lastContainer {
+  border-radius: 10px;
+}
